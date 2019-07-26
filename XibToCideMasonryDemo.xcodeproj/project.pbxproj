@@ -15,6 +15,7 @@
 		F0DBC48A22EADB7C00EB2F75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DBC48922EADB7C00EB2F75 /* main.m */; };
 		F0DBC49422EADB7C00EB2F75 /* XibToCideMasonryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DBC49322EADB7C00EB2F75 /* XibToCideMasonryDemoTests.m */; };
 		F0DBC49F22EADB7C00EB2F75 /* XibToCideMasonryDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DBC49E22EADB7C00EB2F75 /* XibToCideMasonryDemoUITests.m */; };
+		F0DBC4C922EAEA2800EB2F75 /* XibToCideMasonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0DBC4C822EAEA2800EB2F75 /* XibToCideMasonry.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F0DBC49A22EADB7C00EB2F75 /* XibToCideMasonryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XibToCideMasonryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0DBC49E22EADB7C00EB2F75 /* XibToCideMasonryDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XibToCideMasonryDemoUITests.m; sourceTree = "<group>"; };
 		F0DBC4A022EADB7C00EB2F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0DBC4C822EAEA2800EB2F75 /* XibToCideMasonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XibToCideMasonry.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0DBC4C922EAEA2800EB2F75 /* XibToCideMasonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +104,7 @@
 		F0DBC47922EADB7B00EB2F75 /* XibToCideMasonryDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F0DBC4C822EAEA2800EB2F75 /* XibToCideMasonry.framework */,
 				F0DBC47A22EADB7B00EB2F75 /* AppDelegate.h */,
 				F0DBC47B22EADB7B00EB2F75 /* AppDelegate.m */,
 				F0DBC47D22EADB7B00EB2F75 /* ViewController.h */,
